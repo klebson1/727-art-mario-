@@ -1,0 +1,243 @@
+body{
+	display: grid;
+	grid-template-columns: repeat(14, 1fr);
+	grid-template-rows: repeat(18, 50px);
+}
+
+article{
+	border: solid 2px black;
+	background-color: white;
+}
+
+article:nth-child(19){
+	background-color: red;
+	grid-column: span 5;
+}
+
+article:nth-child(28){
+	background-color: red;
+	grid-column: span 9;
+}
+
+article:nth-child(34){
+	background-color: black;
+	grid-column: span 3;
+}
+
+article:nth-child(35){
+	background-color:yellow;
+	grid-column: span 2;	
+}
+
+article:nth-child(36){
+	background-color: black;
+	grid-column: span;
+}
+
+article:nth-child(37){
+	background-color: yellow;
+	grid-column: span;
+}
+
+article:nth-child(44){
+	background-color: black;
+	grid-column: span;
+}
+
+article:nth-child(45){
+	background-color: yellow;
+	grid-column: span;
+}
+
+article:nth-child(46){
+	background-color: black;
+	grid-column: span;
+}
+
+article:nth-child(47){
+	background-color: yellow;
+	grid-column: span 3;
+}
+
+article:nth-child(48){
+	background-color: black;
+	grid-column: span;
+}
+
+article:nth-child(49){
+	background-color: yellow;
+	grid-column: span 3;
+}
+
+article:nth-child(54){
+	background-color: black;
+	grid-column: span;
+}
+
+article:nth-child(55){
+	background-color: yellow;
+	grid-column: span;
+}
+
+article:nth-child(56){
+	background-color: black;
+	grid-column: span 2;
+}
+
+article:nth-child(57){
+	background-color: yellow;
+	grid-column: span 3;
+}
+
+article:nth-child(58){
+	background-color: black;
+	grid-column: span;
+}
+article:nth-child(59){
+	background-color: yellow;
+	grid-column: span 3;
+}
+article:nth-child(63){
+	background-color: black;
+	grid-column: span 2;
+}
+article:nth-child(64){
+	background-color: yellow;
+	grid-column: span 4;
+}
+article:nth-child(65){
+	background-color: black;
+	grid-column: span 4;
+}
+article:nth-child(72){
+	background-color: yellow;
+	grid-column: span 7;
+}
+article:nth-child(79){
+	background-color: black;
+	grid-column: span 2;
+}
+article:nth-child(80){
+	background-color: red;
+	grid-column: span ;
+}
+article:nth-child(81){
+	background-color: black;
+	grid-column: span 3;
+}
+article:nth-child(89){
+	background-color: black;
+	grid-column: span 3;
+}
+article:nth-child(90){
+	background-color: red;
+	grid-column: span ;
+}
+article:nth-child(91){
+	background-color: black;
+	grid-column: span 2;
+}
+article:nth-child(92){
+	background-color: red;
+	grid-column: span ;
+}
+article:nth-child(93){
+	background-color: black;
+	grid-column: span 3;
+}
+article:nth-child(97){
+	background-color: black;
+	grid-column: span 4;
+}
+article:nth-child(98){
+	background-color: red;
+	grid-column: span 4;
+}
+article:nth-child(99){
+	background-color: black;
+	grid-column: span 4;
+}
+article:nth-child(102){
+	background-color: yellow;
+	grid-column: span 2;
+}
+article:nth-child(103){
+	background-color: black;
+	grid-column: span ;
+}
+article:nth-child(104){
+	background-color: red;
+	grid-column: span ;
+}
+article:nth-child(105){
+	background-color: yellow;
+	grid-column: span ;
+}
+article:nth-child(106){
+	background-color: red;
+	grid-column: span 2 ;
+}
+article:nth-child(107){
+	background-color: yellow;
+	grid-column: span ;
+}
+article:nth-child(108){
+	background-color: red;
+	grid-column: span ;
+}
+article:nth-child(109){
+	background-color: black;
+	grid-column: span ;
+}
+article:nth-child(110){
+	background-color: yellow;
+	grid-column: span 2;
+}
+article:nth-child(113){
+	background-color: yellow;
+	grid-column: span 3;
+}
+article:nth-child(114){
+	background-color: red;
+	grid-column: span 6;
+}
+article:nth-child(115){
+	background-color: yellow;
+	grid-column: span 3;
+}
+article:nth-child(118){
+	background-color: yellow;
+	grid-column: span 2;
+}
+article:nth-child(119){
+	background-color: red;
+	grid-column: span 8;
+}
+article:nth-child(120){
+	background-color: yellow;
+	grid-column: span 2;
+}
+article:nth-child(125){
+	background-color: red;
+	grid-column: span 3;
+}
+article:nth-child(128){
+	background-color: red;
+	grid-column: span 3;
+}
+article:nth-child(134){
+	background-color: black;
+	grid-column: span 3;
+}
+article:nth-child(139){
+	background-color: black;
+	grid-column: span 3;
+}
+article:nth-child(143){
+	background-color: black;
+	grid-column: span 4;
+}
+article:nth-child(148){
+	background-color: black;
+	grid-column: span 4;
+}
